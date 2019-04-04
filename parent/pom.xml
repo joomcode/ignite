@@ -202,6 +202,13 @@
         </developer>
     </developers>
 
+    <distributionManagement>
+        <repository>
+            <id>joom</id>
+            <url>https://repo.joom.it/repository/joom-maven/</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <releases>
