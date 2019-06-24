@@ -291,7 +291,7 @@ public class BinaryMetadata implements Externalizable {
         if (fieldsSize == -1)
             fields = null;
         else {
-            fields = new HashMap<>();
+            fields = new LinkedHashMap<>();
 
             for (int i = 0; i < fieldsSize; i++) {
                 String fieldName = U.readString(in);
